@@ -5,6 +5,7 @@
 ## Section 1: Notes
 
 ### Basics of Classes
+
 - A class is a blueprint for creating objects.
 - A class defines attributes (fields/variables) and methods (functions) that describe the behavior of the objects created from the class.
 - Example:
