@@ -93,10 +93,9 @@ public class Car {
             myCar.drive(); // Outputs: The car is driving
         }
     }
+`` `
 
-```
-
-# Getters and Setters
+ # Getters and Setters
 
 - Methods that provide access to private attributes.
 - Getters return the value of a private attribute.
