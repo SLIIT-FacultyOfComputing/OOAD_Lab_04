@@ -41,8 +41,8 @@
 ```
 
 # Attributes
-    •	Variables that hold the data associated with an object.
-    •	Declared within a class but outside any method.
+- Variables that hold the data associated with an object.
+- Declared within a class but outside any method.
 
 ```
     java
@@ -55,8 +55,8 @@
 ```
 # Operations (Methods)
 
-    •	Functions that define the behavior of objects.
-    •	Can be used to perform operations, return values, or modify object state.
+- Functions that define the behavior of objects.
+- Can be used to perform operations, return values, or modify object state.
 
 ```
 java
@@ -70,9 +70,9 @@ public class Car {
 ```
 # Creating Objects and Accessing Variables
 
-  •	Objects are instances of classes.
-  •	Use the new keyword to create an object.
-  •	Access attributes and methods using the dot . operator.
+- Objects are instances of classes.
+- Use the new keyword to create an object.
+- Access attributes and methods using the dot . operator.
 
   ```
     java
@@ -98,9 +98,9 @@ public class Car {
 
 # Getters and Setters
 
-    •	Methods that provide access to private attributes.
-    •	Getters return the value of a private attribute.
-    •	Setters allow modifying the value of a private attribute.
+- Methods that provide access to private attributes.
+- Getters return the value of a private attribute.
+- Setters allow modifying the value of a private attribute.
    
 ```
     java
