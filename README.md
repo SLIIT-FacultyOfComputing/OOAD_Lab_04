@@ -189,11 +189,11 @@ The Library Management System (LMS) shall manage books and member details, inclu
 4. **Example Implementation:**
 5. 
 Requirement: The system shall allow searching for books by title.
-Implementation Steps:
 
-    1.	Store the list of books in an array.
-    2.	Loop through the array and compare each book's title with the search query.
-    3.	If a match is found, return the book details.
+Implementation Steps:
+   - Store the list of books in an array.
+   - Loop through the array and compare each book's title with the search query.
+   - If a match is found, return the book details.
 Code Example:
 
 ```
