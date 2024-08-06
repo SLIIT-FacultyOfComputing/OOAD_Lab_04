@@ -24,10 +24,10 @@
   
 # Visibility Levels
 
-  •	public: Accessible from any other class.
-  •	private: Accessible only within the same class.
-  •	protected: Accessible within the same package and subclasses.
-  •	default (no modifier): Accessible only within the same package.
+- public: Accessible from any other class.
+- private: Accessible only within the same class.
+- protected: Accessible within the same package and subclasses.
+- default (no modifier): Accessible only within the same package.
 
 ```
     java
