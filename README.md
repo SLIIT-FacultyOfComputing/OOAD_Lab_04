@@ -164,6 +164,65 @@ public class Car {
    - Try accessing the private attributes directly and explain the result.
    - **Explanation Required:** Explain the purpose of getters and setters and how they provide controlled access to private attributes.
 
+## Section 3: Comprehensive Question
 
+**Software Requirement Specification for a Library Management System:**
+
+The Library Management System (LMS) shall manage books and member details, including borrowing and returning books. The system shall consist of the following requirements:
+
+1. **Book Management:**
+   - The system shall allow adding new books with the following details: title, author, ISBN, and availability status.
+   - The system shall allow searching for books by title.
+   - The system shall allow updating the availability status of a book when it is borrowed or returned.
+
+2. **Member Management:**
+   - The system shall allow registering new members with their details: name and member ID.
+   - The system shall allow searching for members by their member ID.
+   - The system shall track books borrowed by each member.
+
+3. **Borrowing and Returning Books:**
+   - The system shall allow members to borrow available books.
+   - The system shall update the book's availability status when borrowed.
+   - The system shall allow members to return borrowed books.
+   - The system shall update the book's availability status when returned.
+
+4. **Example Implementation:**
+Requirement: The system shall allow searching for books by title.
+Implementation Steps:
+1.	Store the list of books in an array.
+2.	Loop through the array and compare each book's title with the search query.
+3.	If a match is found, return the book details.
+Code Example:
+
+```
+java
+Copy code
+public class Library {
+    private Book[] books;
+    private int bookCount;
+
+    public Library(int size) {
+        books = new Book[size];
+        bookCount = 0;
+    }
+
+    public void addBook(Book book) {
+        if (bookCount < books.length) {
+            books[bookCount] = book;
+            bookCount++;
+        }
+    }
+
+    public Book searchBookByTitle(String title) {
+        for (int i = 0; i < bookCount; i++) {
+            if (books[i].getTitle().equalsIgnoreCase(title)) {
+                return books[i];
+            }
+        }
+        return null;
+    }
+}
+
+```
 
 
